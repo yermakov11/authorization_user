@@ -1,10 +1,10 @@
-
+import LoginForm from "./components/LoginForm";
 function App() {
-    return (
-    <>
-      <h1>Client part</h1>
-    </>
-  )
+  return (
+    <div>
+      <LoginForm />
+    </div>
+  );
 }
 
-export default App
+export default App;
